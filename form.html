@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sedona</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/mobile.js"></script>
+</head>
+<body>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<div class="wrapper">
+		<div class="main-header">
+			<div class="main-nav main-nav__show">
+				<div class="main-nav__close"></div>
+				<ul class="clearfix">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="photo-video.html">Фото и видео</a></li>
+					<li></li>
+					<li><a href="#">Форма отзыва</a></li>
+					<li><a href="https://htmlacademy.ru/">HTML Academy</a>
+						<img src="img/menu-shadow-mobile.png" alt=""></li>
+					</ul>
+				</div>
+				<div class="main-header__logo">
+				</div>
+				<div class="main-header__menu-button">
+				</div>
+				<div class="main-header__background">
+					<div class="main-header__text"></div>
+				</div>		
+				<div class="main-header--triangle">
+				</div>
+			</div>
+			
+			<div class="photo-preview">
+				<h2>Оставьте свой отзыв</h2>
+				<p>Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+			</div>
+
+			<form action="#">
+				<div class="introduce">
+					<h2>Представьтесь, пожалуйста:</h2>
+					<div class="introduce__field">
+						<label>Имя:</label>
+						<input type="text" name="name" placeholder="Пётр">
+					</div>
+					<div class="introduce__field">
+						<label>Фамилия:</label>
+						<input type="text" name="surname" placeholder="Иванов">
+					</div>
+					<div class="introduce__field">
+						<label>Отчество:</label>
+						<input type="text" name="middle-name" placeholder="Александрович">
+					</div>
+				</div>
+				<div class="contact">
+					<h2>Контактная информация</h2>
+					<div class="phone">
+						<label><span>Контактный</span> телефон:</label>
+						<div class="contact__field">
+							<input type="phone" name="phone" placeholder="Введите телефон">
+							<div class="logo-phone"></div>
+						</div>
+					</div>
+					<div class="email">
+						<label>Электронная почта:</label>
+						<div class="contact__field">
+							<input type="text" name="email" placeholder="Введите e-mail">
+							<div class="logo-email"></div>
+						</div>
+					</div>
+				</div>
+				<div class="impression">
+					<h2>Ваше общее впечатление:</h2>
+					<input class="radio" type="radio" id="radio-1" name="radio">
+					<label for="radio-1">Скорее положительное</label>
+					<input class="radio" type="radio" id="radio-2" name="radio">
+					<label for="radio-2">Скорее отрицательное</label>
+					<input class="radio" type="radio" id="radio-3" name="radio">
+					<label for="radio-3">Затрудняюсь ответить</label>
+				</div>
+				<div class="sights">
+					<h2>Посещенные достопримечательности:</h2>
+					<div class="line"></div>
+					<input class="checkbox" type="checkbox" id="checkbox-1" name="checkbox">
+					<label for="checkbox-1">Мост дьявола</label>
+					<input class="checkbox" type="checkbox" id="checkbox-2" name="checkbox">
+					<label for="checkbox-2">Слайд-парк</label>
+					<br>
+					<input class="checkbox" type="checkbox" id="checkbox-3" name="checkbox">
+					<label for="checkbox-3">Гора-колокол</label>
+					<input class="checkbox" type="checkbox" id="checkbox-4" name="checkbox">
+					<label for="checkbox-4">Красные скалы</label>
+				</div>
+				<div class="emotions">
+					<h2>Опишите свои эмоции</h2>
+					<div class="line"></div>
+					<textarea placeholder="Опишите подробно все свои восторги"></textarea>
+				</div>
+				<a class="btn" href="#">Отправить отзыв</a>
+				<span>* - Обязательные поля</span>
+			</form>
+
+			<div class="main-footer">
+				<h2>#visitsedona</h2>
+				<div class="main-footer__social">
+					<a href="#" class="main-footer__social--tw"></a>
+					<a href="#" class="main-footer__social--fb"></a>
+					<a href="#" class="main-footer__social--yt"></a>
+				</div>
+				<div class="main-footer__powered">
+					<p>Разработано</p>
+					<a href="https://htmlacademy.ru/">
+						<img src="img/htmlacademy-logo.png" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
