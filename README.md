@@ -1,4 +1,10 @@
 # sedona
 Because the Grand Canyon sucks
 
-https://rkoshevoy.github.io/sedona/
+Адаптивный сайт для путешествий. 4 страницы. Просмотреть - https://rkoshevoy.github.io/sedona/
+
+Использовано:
+- HTML 5;
+- CSS;
+- БЭМ;
+- Mobile-first;
